@@ -6,6 +6,9 @@ def FizzBuzz(x):
     elif x % 5 == 0:
             return "Buzz"
 
+    elif x % 3 == 0:
+        return "Fizz"
+
     
 
 
@@ -14,4 +17,5 @@ def FizzBuzz(x):
 def test_answers():
     assert FizzBuzz(15) == "FizzBuzz"
     assert FizzBuzz(10) == "Buzz"
+    assert FizzBuzz(6) == "Fizz"
     
